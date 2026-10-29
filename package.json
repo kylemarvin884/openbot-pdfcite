@@ -1,0 +1,31 @@
+{
+  "name": "openbot-pdfcite",
+  "version": "0.1.0",
+  "description": "Verify every quote in an AI answer against the page of the source PDF it claims to come from. Offline, zero dependencies, CI exit codes.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "pdfcite": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo/run-demo.mjs"
+  },
+  "keywords": [
+    "pdf",
+    "citation",
+    "rag",
+    "verification",
+    "agent-reliability",
+    "context-engineering",
+    "cli"
+  ]
+}
